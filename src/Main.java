@@ -75,7 +75,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("--------------------");
-        System.out.println("    Calculadora     ");
+        System.out.println("    Calculadora.    ");
         System.out.println("--------------------");
 
         Scanner input = new Scanner(System.in);
@@ -120,7 +120,7 @@ public class Main {
             int fechar = input.nextInt();
 
             if(fechar == 1){
-                System.out.println("ESTAMOS FECHANDO O PROGRAMA!");
+                System.out.print("ESTAMOS FECHANDO O PROGRAMA!");
                 break;
             }
 
